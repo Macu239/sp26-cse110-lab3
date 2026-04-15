@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Lab 2 assignment</title>
+    <title>Lab 3 assignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playwrite+IE:wght@100..400&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background-color: rgb(34, 32, 32);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+      }
+    </style>
+     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Jeremys Meeting Notes</h1>
+    <h1 style="color: #ffffff; font-size: 40px;" class="title">Jeremys Meeting Notes</h1>
     <h2>brainstorming</h2>
-    <h2>4/7/2025 16:00</h2>
+    <h2 id="time">4/7/2025 16:00</h2>
     <h3>attendance list</h3>
-    <ol>
-      <li>Jeremy</li>
-      <li>Franklin</li>
-      <li>Iris</li>
-      <li>Esther</li>
-      <li>Samantha</li>
-      <li>Kevin</li>
+    <ol id="attendees">
+      <li class="names">Jeremy</li>
+      <li class="names">Franklin</li>
+      <li class="names">Iris</li>
+      <li class="names">Esther</li>
+      <li class="names">Samantha</li>
+      <li class="names">Kevin</li>
     </ol>
     <h4>Caming up with project ideas</h4>
     <ol>
@@ -35,7 +48,7 @@
       <li>Iris: We should decide on the stack by next week</li>
     </ol>
     <p>Poll for the field our project will focus on</p>
-    <img src="./chart.png" alt="poll chart">
+    <img class="poll-chart" src="./chart.png" alt="poll chart">
     <h4>Video recording of the meeting</h4>
     <video controls>
         <source src="./Video_Project.mp4" type="video/mp4">
